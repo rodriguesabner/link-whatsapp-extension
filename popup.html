@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerador de Links WhatsApp</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: sans-serif;
+        padding: 2em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    label {
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        opacity: .5;
+    }
+
+    input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    div {
+        margin-bottom: 15px;
+    }
+
+    small {
+        opacity: .4;
+    }
+
+    button {
+        width: 100%;
+        height: 36px;
+        padding: 5px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<body>
+    <form id="form">
+        <div>
+            <label for="phone">Telefone:</label>
+            <input type="text" id="phone" name="phone">
+            <small>Ex: 5511912345678</small>
+        </div>
+
+        <div>
+            <label for="message">Mensagem:</label>
+            <input type="text" id="message" name="message">
+        </div>
+
+        <button id="send">Enviar</button>
+    </form>
+    <script src="popup.js"></script>
+</body>
+
+</html>

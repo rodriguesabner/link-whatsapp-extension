@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Send Message Whatsapp",
+  "version": "1.0",
+  "description": "Envie mensagem para no whatsapp sem salvar o contato",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
